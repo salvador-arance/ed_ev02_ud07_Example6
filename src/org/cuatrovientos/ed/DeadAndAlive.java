@@ -1,4 +1,5 @@
 package org.cuatrovientos.ed;
+
 import java.util.Scanner;
 
 public class DeadAndAlive {
@@ -21,7 +22,7 @@ public class DeadAndAlive {
 			do {
 				aleatorioNoValido = false;
 				numeroParaAdivinarInt = (int) ((Math.random() * 9000) + 1000);
-				//numeroParaAdivinarInt = rnd.nextInt(1000,10001);
+				// numeroParaAdivinarInt = rnd.nextInt(1000,10001);
 				numeroParaAdivinarStr = Integer.toString(numeroParaAdivinarInt);
 
 				for (int i = 0; i < numeroParaAdivinarStr.length(); i++) {
