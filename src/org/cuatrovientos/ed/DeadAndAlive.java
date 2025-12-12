@@ -96,7 +96,7 @@ public class DeadAndAlive {
 
 			} while (!numeroAcertado);
 
-			System.out.print("¡¡Enhorabuena, has ganado al " + numIntentos + "º intento!!");
+			System.out.print("¡Enhorabuena, has ganado al " + numIntentos + "º intento!");
 			System.out.print("Para seguir jugando, introduzca \"S\": ");
 
 			entrada = escaner.nextLine().toUpperCase();
